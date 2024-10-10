@@ -4,7 +4,7 @@ name: Sync Image to Aliyun  Example
 
 env:
   # env_var: ${{ vars.ENV_CONTEXT_VAR }}
-  DOCKERIMAGENAME: "breezedeus/cnocr-arm64:latest"
+  DOCKERIMAGENAME: "vllm/vllm-openai:v0.6.2"
  
 # 怎样触发工作流
 on:
