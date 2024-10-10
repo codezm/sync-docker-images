@@ -4,7 +4,7 @@ name: Sync Image to Aliyun  Example
 
 env:
   # env_var: ${{ vars.ENV_CONTEXT_VAR }}
-  DOCKERIMAGENAME: "alpine/git:2.36.2"
+  DOCKERIMAGENAME: "pytorch/pytorch:2.1.2-cuda12.1-cudnn8-runtime"
  
 # 怎样触发工作流
 on:
