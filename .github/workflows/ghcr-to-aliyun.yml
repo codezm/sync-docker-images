@@ -4,7 +4,7 @@ name: Sync ghcr Image to Aliyun
 
 env:
   # env_var: ${{ vars.ENV_CONTEXT_VAR }}
-  DOCKERIMAGENAME: "codezm/fastgpt:latest"
+  DOCKERIMAGENAME: "ggml-org/llama.cpp:server-cuda12"
  
 # 怎样触发工作流
 on:
