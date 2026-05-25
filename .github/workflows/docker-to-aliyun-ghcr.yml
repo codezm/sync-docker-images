@@ -4,7 +4,7 @@ name: Sync docker.io to aliyun and ghcr
 
 env:
   # env_var: ${{ vars.ENV_CONTEXT_VAR }}
-  DOCKERIMAGENAME: "havenoammo/llama:cuda12-server"
+  DOCKERIMAGENAME: "cloakhq/cloakbrowser-manager:latest"
  
 # 怎样触发工作流
 on:
