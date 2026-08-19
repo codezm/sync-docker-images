@@ -4,7 +4,7 @@ name: Sync docker.io to aliyun and ghcr
 
 env:
   # env_var: ${{ vars.ENV_CONTEXT_VAR }}
-  DOCKERIMAGENAME: "azul-zulu:17.66-17.0.19-jre-headless-alpine3.23"
+  DOCKERIMAGENAME: "ollama/ollama:latest"
  
 # 怎样触发工作流
 on:
